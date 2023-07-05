@@ -1,2 +1,2 @@
 # heatexh.github.io
-..
+.
