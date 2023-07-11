@@ -1,413 +1,1429 @@
 <!-- zb1.html -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8K07QVK906">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+ <head>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8K07QVK906">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-8K07QVK906');
-    </script>
-    <link href="zs.css" rel="stylesheet" type="text/css" />
-    <meta charset="utf-8" />
-    <title>
-        HeatExh - ZB1 ZhongShu
-    </title>
-</head>
-
-<body>
-    <main>
-        <center>
-            <p style="font-size: 1em;">
-                Last updated：Beijing Time 2023-07-10 17:00
-            </p>
-            <a href="index.html" style="font-size: 2em;">
-                中文
-            </a>
-            <p style="font-size: 2em;display: inline">
-                👀
-            </p>
-            <a href="ko.html" style="font-size: 2em;">
-                한국어
-            </a>
-            <p style="font-size: 2em;display: inline">
-                👀
-            </p>
-            <h2 style="font-size: 3em;">
-                ZB1's First Debut Mini Album Sales in China
-            </h2>
-            <div style="width: 95%; height: auto;">
-                <canvas id="pieChart">
-                </canvas>
-            </div>
-            <p>
-                Line chart excluding pre-orders
-            </p>
-            <div style="width: 95%; height: auto;">
-                <canvas id="lineChart">
-                </canvas>
-            </div>
-            <br />
-            <h2 style="font-size: 3em;">
-                Total Sales
-            </h2>
-            <div class="table-container">
-                <table class="styled-table1" id="total_table">
-                    <thead>
-                        <tr>
-                            <td id="lcell">
-                                Total sales: 527656
-                            </td>
-                            <th>
-                                Zhang Hao
-                            </th>
-                            <th>
-                                Sung Hanbin
-                            </th>
-                            <th>
-                                Seok Matthew
-                            </th>
-                            <th>
-                                Ricky
-                            </th>
-                            <th>
-                                Park Gunwook
-                            </th>
-                            <th>
-                                Kim Taerae
-                            </th>
-                            <th>
-                                Kim Gyuvin
-                            </th>
-                            <th>
-                                Kim Jiwoong
-                            </th>
-                            <th>
-                                Han Yujin
-                            </th>
-                            <th>
-                                Haobin
-                            </th>
-                            <th>
-                                ZB1
-                            </th>
-                        </tr>
-                        <tr>
-                            <th id="total">
-                                Sales:
-                            </th>
-                            <th id="totalrow">
-                                305886
-                            </th>
-                            <th id="totalrow">
-                                22295
-                            </th>
-                            <th id="totalrow">
-                                2743
-                            </th>
-                            <th id="totalrow">
-                                29627
-                            </th>
-                            <th id="totalrow">
-                                5203
-                            </th>
-                            <th id="totalrow">
-                                2574
-                            </th>
-                            <th id="totalrow">
-                                11657
-                            </th>
-                            <th id="totalrow">
-                                7454
-                            </th>
-                            <th id="totalrow">
-                                72199
-                            </th>
-                            <th id="totalrow">
-                                57356
-                            </th>
-                            <th id="totalrow">
-                                10662
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>
-                                Pre-order
-                            </th>
-                            <td>
-                                305886
-                            </td>
-                            <td>
-                                22295 (To be updated)
-                            </td>
-                            <td>
-                                2743 (To be updated)
-                            </td>
-                            <td>
-                                29627 (To be updated)
-                            </td>
-                            <td>
-                                5203
-                            </td>
-                            <td>
-                                2574 (To be updated)
-                            </td>
-                            <td>
-                                11657 (To be updated)
-                            </td>
-                            <td>
-                                7454 (To be updated)
-                            </td>
-                            <td>
-                                72199
-                            </td>
-                            <td>
-                                57356 (To be updated)
-                            </td>
-                            <td>
-                                10662
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <br />
-            <h2 style="font-size: 3em;">
-                Detailed Sales
-            </h2>
-            <div class="table-container">
-                <table class="styled-table2">
-                    <thead>
-                        <tr>
-                            <th>
-                                Platform
-                            </th>
-                            <th>
-                                Item (Click to jump to the link)
-                            </th>
-                            <th>
-                                Sales
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody id="detail_tbody">
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Zhang Hao
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                305886
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Sung Hanbin
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                22295 (To be updated)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Seok Matthew
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                2743 (To be updated)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Ricky
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                29627 (To be updated)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Park Gunwook
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                5203
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Kim Taerae
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                2574 (To be updated)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Kim Gyuvin
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                11657 (To be updated)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Kim Jiwoong
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                7454 (To be updated)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Han Yujin
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                72199
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                Haobin
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                57356 (To be updated)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3" id="namerow">
-                                ZB1
-                            </td>
-                        </tr>
-                        <tr>
-                            <td id="platname" rowspan="1">
-                                Pre-order
-                            </td>
-                            <td>
-                                Pre-order
-                            </td>
-                            <td>
-                                10662
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <br />
-            <p style="font-size: 1em;;">
-                The data on this page is only for reference
-            </p>
-            <p style="font-size: 1em;;">
-                heatexh.github.io © tmj
-            </p>
-            <div class="watermark1">
-                heatexh.github.io © tmj
-            </div>
-            <div class="watermark2">
-                heatexh.github.io © tmj
-            </div>
-            <div class="watermark3">
-                heatexh.github.io © tmj
-            </div>
-            <div class="watermark4">
-                heatexh.github.io © tmj
-            </div>
-        </center>
-    </main>
-</body>
-<script src="scripts/chart.umd.min.js">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0">
-</script>
-<script>
-    Chart.register(ChartDataLabels);
+  </script>
+  <link href="zs.css" rel="stylesheet" type="text/css"/>
+  <meta charset="utf-8"/>
+  <title>
+   HeatExh - ZB1 ZhongShu
+  </title>
+ </head>
+ <body>
+  <main>
+   <center>
+    <p style="font-size: 1em;">
+     Last updated：Beijing Time 2023-07-11 15:07:07~15:07:57
+    </p>
+    <a href="index.html" style="font-size: 2em;">
+     中文
+    </a>
+    <p style="font-size: 2em;display: inline">
+     👀
+    </p>
+    <a href="ko.html" style="font-size: 2em;">
+     한국어
+    </a>
+    <p style="font-size: 2em;display: inline">
+     👀
+    </p>
+    <h2 style="font-size: 3em;">
+     ZB1's First Debut Mini Album Sales in China
+    </h2>
+    <div style="width: 95%; height: auto;">
+     <canvas id="pieChart">
+     </canvas>
+    </div>
+    <p>
+     Line chart excluding pre-orders
+    </p>
+    <div style="width: 95%; height: auto;">
+     <canvas id="lineChart">
+     </canvas>
+    </div>
+    <br/>
+    <h2 style="font-size: 3em;">
+     Total Sales
+    </h2>
+    <div class="table-container">
+     <table class="styled-table1" id="total_table">
+      <thead>
+       <tr>
+        <td id="lcell">
+         Total sales: 534266
+        </td>
+        <th>
+         Zhang Hao
+        </th>
+        <th>
+         Sung Hanbin
+        </th>
+        <th>
+         Seok Matthew
+        </th>
+        <th>
+         Ricky
+        </th>
+        <th>
+         Park Gunwook
+        </th>
+        <th>
+         Kim Taerae
+        </th>
+        <th>
+         Kim Gyuvin
+        </th>
+        <th>
+         Kim Jiwoong
+        </th>
+        <th>
+         Han Yujin
+        </th>
+        <th>
+         Haobin
+        </th>
+        <th>
+         ZB1
+        </th>
+       </tr>
+       <tr>
+        <th id="total">
+         Sales:
+        </th>
+        <th id="totalrow">
+         309008
+        </th>
+        <th id="totalrow">
+         22467
+        </th>
+        <th id="totalrow">
+         2743
+        </th>
+        <th id="totalrow">
+         31646
+        </th>
+        <th id="totalrow">
+         5212
+        </th>
+        <th id="totalrow">
+         2574
+        </th>
+        <th id="totalrow">
+         11800
+        </th>
+        <th id="totalrow">
+         7538
+        </th>
+        <th id="totalrow">
+         72627
+        </th>
+        <th id="totalrow">
+         57893
+        </th>
+        <th id="totalrow">
+         10758
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <th>
+         Pre-order
+        </th>
+        <td>
+         305886
+        </td>
+        <td>
+         22295
+        </td>
+        <td>
+         2743
+        </td>
+        <td>
+         31074
+        </td>
+        <td>
+         5203
+        </td>
+        <td>
+         2574
+        </td>
+        <td>
+         11657
+        </td>
+        <td>
+         7454
+        </td>
+        <td>
+         72199
+        </td>
+        <td>
+         57356
+        </td>
+        <td>
+         10662
+        </td>
+       </tr>
+       <tr>
+        <th>
+         ktown4u
+        </th>
+        <td>
+         392
+        </td>
+        <td>
+         28
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         332
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         19
+        </td>
+        <td>
+         30
+        </td>
+        <td>
+         190
+        </td>
+        <td>
+         151
+        </td>
+        <td>
+         24
+        </td>
+       </tr>
+       <tr>
+        <th>
+         withmuu
+        </th>
+        <td>
+         1935
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         72
+        </td>
+       </tr>
+       <tr>
+        <th>
+         weidian
+        </th>
+        <td>
+         795
+        </td>
+        <td>
+         144
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         240
+        </td>
+        <td>
+         9
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         124
+        </td>
+        <td>
+         54
+        </td>
+        <td>
+         238
+        </td>
+        <td>
+         386
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <br/>
+    <h2 style="font-size: 3em;">
+     Detailed Sales
+    </h2>
+    <div class="table-container">
+     <table class="styled-table2">
+      <thead>
+       <tr>
+        <th>
+         Platform
+        </th>
+        <th>
+         Item (Click to jump to the link)
+        </th>
+        <th>
+         Sales
+        </th>
+       </tr>
+      </thead>
+      <tbody id="detail_tbody">
+       <tr>
+        <td colspan="3" id="namerow">
+         Zhang Hao
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批(Last updated: )
+        </td>
+        <td>
+         305886
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237624&amp;goods_no=97184">
+          戳脸PB版拆卡
+         </a>
+        </td>
+        <td>
+         191
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237616&amp;goods_no=97184">
+          戳脸D版拆卡
+         </a>
+        </td>
+        <td>
+         186
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237612&amp;goods_no=97141">
+          戳脸D版运回
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237608&amp;goods_no=97135">
+          戳脸PB版运回2CD
+         </a>
+        </td>
+        <td>
+         2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237607&amp;goods_no=97127">
+          戳脸PB版运回
+         </a>
+        </td>
+        <td>
+         10
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         withmuu
+        </td>
+        <td>
+         <a href="https://shop.mini-pie.com/?continueFlag=dfc22ed597caba84126467206e09f44e#/pages/detail/index?id=64abc32da8d9d400159bdeb3">
+          WM/PB版
+         </a>
+        </td>
+        <td>
+         756
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop.mini-pie.com/?continueFlag=dfc22ed597caba84126467206e09f44e#/pages/detail/index?id=64abc275ac92c60014904477">
+          WM/D版
+         </a>
+        </td>
+        <td>
+         1179
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468261356">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         448
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468375848">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         347
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Sung Hanbin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批（待更新）(Last updated: )
+        </td>
+        <td>
+         22295
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237619&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         10
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237515&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237516&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237522&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237620&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         18
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6467326143">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         27
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468376186">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         117
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Seok Matthew
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批（待更新）(Last updated: )
+        </td>
+        <td>
+         2743
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237637&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237535&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237530&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237529&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237642&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468467854">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6467398019">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Ricky
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批(Last updated: )
+        </td>
+        <td>
+         31074
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237633&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         72
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237586&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         36
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237583&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237582&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         30
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237630&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         192
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6467249419">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         112
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468431680">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         128
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Park Gunwook
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批(Last updated: )
+        </td>
+        <td>
+         5203
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237622&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237506&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237507&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237523&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237621&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6467294869">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468419856">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Kim Taerae
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批(Last updated: )
+        </td>
+        <td>
+         2574
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237556&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237559&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6467279569">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468361154">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Kim Gyuvin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批（待更新）(Last updated: )
+        </td>
+        <td>
+         11657
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="4">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237631&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237595&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237632&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237589&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468372272">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         74
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6467270977">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         50
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Kim Jiwoong
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批（待更新）(Last updated: )
+        </td>
+        <td>
+         7454
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237625&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237524&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         10
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237525&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237528&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         11
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237627&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468443862">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468422196">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         54
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Han Yujin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批(Last updated: )
+        </td>
+        <td>
+         72199
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237615&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         46
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237511&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237512&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         6
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237521&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237614&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         135
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6464362467">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         128
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6464315191">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         110
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Haobin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批（待更新）(Last updated: )
+        </td>
+        <td>
+         57356
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="9">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237598&amp;goods_no=97141">
+          补专幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237597&amp;goods_no=97127">
+          补专幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237613&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         54
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237575&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237576&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237574&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237611&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         92
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=236409&amp;goods_no=96717">
+          D版运回
+         </a>
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=236410&amp;goods_no=96414">
+          PB版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468433880">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         203
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468323500">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         183
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         ZB1
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         Pre-order
+        </td>
+        <td>
+         首批(Last updated: )
+        </td>
+        <td>
+         10662
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237550&amp;goods_no=97141">
+          幸运卡D版运回
+         </a>
+        </td>
+        <td>
+         4
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237618&amp;goods_no=97184">
+          幸运卡D版拆卡
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237551&amp;goods_no=97135">
+          幸运卡PB版运回2CD
+         </a>
+        </td>
+        <td>
+         2
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1742515&amp;fanc_goods_no=237617&amp;goods_no=97184">
+          幸运卡PB版拆卡
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=1741898&amp;fanc_goods_no=237549&amp;goods_no=97127">
+          幸运卡PB版运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         withmuu
+        </td>
+        <td>
+         <a href="https://shop.mini-pie.com/?continueFlag=dfc22ed597caba84126467206e09f44e#/pages/detail/index?id=64abc592b8831b00155c58db">
+          WM/D版
+         </a>
+        </td>
+        <td>
+         54
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop.mini-pie.com/?continueFlag=dfc22ed597caba84126467206e09f44e#/pages/detail/index?id=64abc7292decc8001547bc77">
+          WM/PB版
+         </a>
+        </td>
+        <td>
+         18
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         weidian
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6468374842">
+          adyzSW幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6467271491">
+          adyzWM幸运卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <br/>
+    <p style="font-size: 1em;;">
+     The data on this page is only for reference
+    </p>
+    <p style="font-size: 1em;;">
+     heatexh.github.io © tmj
+    </p>
+    <div class="watermark1">
+     heatexh.github.io © tmj
+    </div>
+    <div class="watermark2">
+     heatexh.github.io © tmj
+    </div>
+    <div class="watermark3">
+     heatexh.github.io © tmj
+    </div>
+    <div class="watermark4">
+     heatexh.github.io © tmj
+    </div>
+   </center>
+  </main>
+ </body>
+ <script src="scripts/chart.umd.min.js">
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0">
+ </script>
+ <script>
+  Chart.register(ChartDataLabels);
     var ctx = document.getElementById('pieChart').getContext('2d');
     Chart.overrides.pie.plugins.legend.position = 'left';
     var data = [{
-        label: 'Count',
-        data: [305886, 72199, 57356, 29627, 22295, 11657, 10662, 7454, 5203, 2743, 2574],
+        label: '数量',
+        data: [309008, 72627, 57893, 31646, 22467, 11800, 10758, 7538, 5212, 2743, 2574],
         backgroundColor: ['#4c78a8', '#f58518', '#e45756', '#72b7b2', '#54a24b', '#eeca3b', '#b279a2', '#ff9da6', '#9d755d', '#bab0ac', '#555555'],
     }];
 
@@ -445,88 +1461,88 @@
         },
         options: options
     });
-</script>
-<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js">
-</script>
-<script>
-    // line chart with zoom
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js">
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js">
+ </script>
+ <script>
+  // line chart with zoom
     Chart.register(ChartZoom);
     Chart.defaults.plugins.legend.position = 'left';
     var ctx_line = document.getElementById('lineChart');
     const config_line = {
         type: 'line',
         data: {
-            labels: ['07-10 17:00'],
+            labels: ['07-10 17:00', '07-11 15:07'],
             datasets: [
                 {
                     label: 'Zhang Hao',
-                    data: [0],
+                    data: [0, 3122],
                     borderColor: '#4c78a8',
                     backgroundColor: '#4c78a8',
                 },
                 {
                     label: 'Sung Hanbin',
-                    data: [0],
+                    data: [0, 172],
                     borderColor: '#54a24b',
                     backgroundColor: '#54a24b',
                 },
                 {
                     label: 'Seok Matthew',
-                    data: [0],
+                    data: [0, 0],
                     borderColor: '#bab0ac',
                     backgroundColor: '#bab0ac',
                 },
                 {
                     label: 'Ricky',
-                    data: [0],
+                    data: [0, 572],
                     borderColor: '#72b7b2',
                     backgroundColor: '#72b7b2',
                 },
                 {
                     label: 'Park Gunwook',
-                    data: [0],
+                    data: [0, 9],
                     borderColor: '#9d755d',
                     backgroundColor: '#9d755d',
                 },
                 {
                     label: 'Kim Taerae',
-                    data: [0],
+                    data: [0, 0],
                     borderColor: '#555555',
                     backgroundColor: '#555555',
                 },
                 {
                     label: 'Kim Gyuvin',
-                    data: [0],
+                    data: [0, 143],
                     borderColor: '#eeca3b',
                     backgroundColor: '#eeca3b',
                 },
                 {
                     label: 'Kim Jiwoong',
-                    data: [0],
+                    data: [0, 84],
                     borderColor: '#ff9da6',
                     backgroundColor: '#ff9da6',
                 },
                 {
                     label: 'Han Yujin',
-                    data: [0],
+                    data: [0, 428],
                     borderColor: '#f58518',
                     backgroundColor: '#f58518',
                 },
                 {
                     label: 'Haobin',
-                    data: [0],
+                    data: [0, 537],
                     borderColor: '#e45756',
                     backgroundColor: '#e45756',
                 },
                 {
                     label: 'ZB1',
-                    data: [0],
+                    data: [0, 96],
                     borderColor: '#b279a2',
                     backgroundColor: '#b279a2',
                 },
-
+                
             ]
         },
         options: {
@@ -562,6 +1578,5 @@
         }
     };
     var lineChart = new Chart(ctx_line, config_line);
-</script>
-
+ </script>
 </html>
