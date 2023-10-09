@@ -63,7 +63,7 @@ canvas {
     max-width: 10em;
 }
 .styled-table1 th{
-    background-color: #0d0998;
+    background-color: rgb(73, 89, 152);
     color: #ffffff;
     padding: 12px 15px;
     text-align: center;
@@ -104,7 +104,7 @@ canvas {
     max-width: 10em;
 }
 .styled-table2 th{
-    background-color: #0d0998;
+    background-color: #495998;
     color: #ffffff;
     padding: 12px 15px;
     text-align: center;
@@ -131,23 +131,23 @@ canvas {
     word-wrap: break-word;
 }
 #lcell {
-    background-color: #ff0077;
+    background-color: rgb(195, 80, 119);
     color: #ffffff;
     min-width: 5em;
     font-weight: bold;
     font-size: 130%;
 }
 #total {
-    background-color: #4b7fe8;
+    background-color: rgb(133, 149, 212);
     color: #ffffff;
     text-align: right;
 }
 #totalrow {
-    background-color: #4b7fe8;
+    background-color: rgb(133, 149, 212);
     color: #ffffff;
 }
 #namerow {
-    background-color: #4b7fe8;
+    background-color: rgb(133, 149, 212);
     color: #ffffff;
     padding: 15px;
 }

@@ -1,139 +1,3043 @@
 <!-- zb1.html -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8K07QVK906">
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+ <head>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8K07QVK906">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-8K07QVK906');
-    </script>
-    <link href="zs.css" rel="stylesheet" type="text/css" />
-    <meta charset="utf-8" />
-    <title>
-        HeatExh - ZB1 ZhongShu
-    </title>
-</head>
+  </script>
+  <link href="zs.css" rel="stylesheet" type="text/css"/>
+  <meta charset="utf-8"/>
+  <title>
+   HeatExh - ZB1 ZhongShu
+  </title>
+ </head>
+ <body>
+  <main>
+   <center>
+    <p style="font-size: 1em;">
+     Last updated：Beijing Time 2023-10-09 12:25:47~12:25:47
+    </p>
+    <a href="index.html" style="font-size: 2em;">
+     中文
+    </a>
+    <p style="font-size: 2em;display: inline">
+     👀
+    </p>
+    <a href="ko.html" style="font-size: 2em;">
+     한국어
+    </a>
+    <p style="font-size: 2em;display: inline">
+     👀
+    </p>
+    <h2 style="font-size: 3em;">
+     ZB1's 2nd Mini Album Sales in China
+    </h2>
+    <div style="width: 95%; height: auto;">
+     <canvas id="pieChart">
+     </canvas>
+    </div>
+    <div style="width: 95%; height: auto;">
+     <canvas id="lineChart">
+     </canvas>
+    </div>
+    <br/>
+    <h2 style="font-size: 3em;">
+     Total Sales
+    </h2>
+    <div class="table-container">
+     <table class="styled-table1" id="total_table">
+      <thead>
+       <tr>
+        <td id="lcell">
+         Total sales: 89021
+        </td>
+        <th>
+         Zhang Hao
+        </th>
+        <th>
+         Sung Hanbin
+        </th>
+        <th>
+         Seok Matthew
+        </th>
+        <th>
+         Ricky
+        </th>
+        <th>
+         Park Gunwook
+        </th>
+        <th>
+         Kim Taerae
+        </th>
+        <th>
+         Kim Gyuvin
+        </th>
+        <th>
+         Kim Jiwoong
+        </th>
+        <th>
+         Han Yujin
+        </th>
+        <th>
+         haobin
+        </th>
+        <th>
+         luckyz
+        </th>
+        <th>
+         kongddakz
+        </th>
+        <th>
+         ZB1
+        </th>
+       </tr>
+       <tr>
+        <th id="total">
+         Sales:
+        </th>
+        <th id="totalrow">
+         73778
+        </th>
+        <th id="totalrow">
+         2503
+        </th>
+        <th id="totalrow">
+         306
+        </th>
+        <th id="totalrow">
+         3347
+        </th>
+        <th id="totalrow">
+         789
+        </th>
+        <th id="totalrow">
+         87
+        </th>
+        <th id="totalrow">
+         2149
+        </th>
+        <th id="totalrow">
+         444
+        </th>
+        <th id="totalrow">
+         5618
+        </th>
+        <th id="totalrow">
+         0
+        </th>
+        <th id="totalrow">
+         0
+        </th>
+        <th id="totalrow">
+         0
+        </th>
+        <th id="totalrow">
+         0
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <th>
+         爱豆驿站
+        </th>
+        <td>
+         1237
+        </td>
+        <td>
+         64
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         77
+        </td>
+        <td>
+         65
+        </td>
+        <td>
+         9
+        </td>
+        <td>
+         34
+        </td>
+        <td>
+         12
+        </td>
+        <td>
+         246
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         pinkypop
+        </th>
+        <td>
+         5098
+        </td>
+        <td>
+         9
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         16
+        </td>
+        <td>
+         93
+        </td>
+        <td>
+         4
+        </td>
+        <td>
+         12
+        </td>
+        <td>
+         3
+        </td>
+        <td>
+         86
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         微店
+        </th>
+        <td>
+         33222
+        </td>
+        <td>
+         294
+        </td>
+        <td>
+         3
+        </td>
+        <td>
+         229
+        </td>
+        <td>
+         39
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         99
+        </td>
+        <td>
+         2
+        </td>
+        <td>
+         1416
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         yeti
+        </th>
+        <td>
+         7740
+        </td>
+        <td>
+         386
+        </td>
+        <td>
+         62
+        </td>
+        <td>
+         454
+        </td>
+        <td>
+         164
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         1093
+        </td>
+        <td>
+         62
+        </td>
+        <td>
+         782
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         nanyi
+        </th>
+        <td>
+         12624
+        </td>
+        <td>
+         390
+        </td>
+        <td>
+         122
+        </td>
+        <td>
+         682
+        </td>
+        <td>
+         180
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         327
+        </td>
+        <td>
+         113
+        </td>
+        <td>
+         1293
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         starriver
+        </th>
+        <td>
+         6976
+        </td>
+        <td>
+         705
+        </td>
+        <td>
+         53
+        </td>
+        <td>
+         1011
+        </td>
+        <td>
+         125
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         330
+        </td>
+        <td>
+         148
+        </td>
+        <td>
+         956
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         ktown4u
+        </th>
+        <td>
+         4486
+        </td>
+        <td>
+         142
+        </td>
+        <td>
+         38
+        </td>
+        <td>
+         264
+        </td>
+        <td>
+         50
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         45
+        </td>
+        <td>
+         30
+        </td>
+        <td>
+         251
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         makestar
+        </th>
+        <td>
+         1762
+        </td>
+        <td>
+         454
+        </td>
+        <td>
+         14
+        </td>
+        <td>
+         514
+        </td>
+        <td>
+         35
+        </td>
+        <td>
+         46
+        </td>
+        <td>
+         190
+        </td>
+        <td>
+         60
+        </td>
+        <td>
+         489
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         kpopshop
+        </th>
+        <td>
+         550
+        </td>
+        <td>
+         59
+        </td>
+        <td>
+         6
+        </td>
+        <td>
+         100
+        </td>
+        <td>
+         38
+        </td>
+        <td>
+         28
+        </td>
+        <td>
+         19
+        </td>
+        <td>
+         14
+        </td>
+        <td>
+         99
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <th>
+         悦梦
+        </th>
+        <td>
+         83
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <br/>
+    <h2 style="font-size: 3em;">
+     Detailed Sales
+    </h2>
+    <div class="table-container">
+     <table class="styled-table2">
+      <thead>
+       <tr>
+        <th>
+         Platform
+        </th>
+        <th>
+         Item (Click to jump to the link)
+        </th>
+        <th>
+         Sales
+        </th>
+       </tr>
+      </thead>
+      <tbody id="detail_tbody">
+       <tr>
+        <td colspan="3" id="namerow">
+         Zhang Hao
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6681936223">
+          特典合集
+         </a>
+        </td>
+        <td>
+         1237
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="4">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6681021691">
+          特典合集
+         </a>
+        </td>
+        <td>
+         1300
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6684042940">
+          自制特典拆卡
+         </a>
+        </td>
+        <td>
+         105
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6684056222">
+          自制特典运回
+         </a>
+        </td>
+        <td>
+         183
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6681556159">
+          MS特典
+         </a>
+        </td>
+        <td>
+         3510
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="11">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6685293006">
+          自制特典拆卡
+         </a>
+        </td>
+        <td>
+         42
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6684172721">
+          自制特典运回
+         </a>
+        </td>
+        <td>
+         58
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6681592817">
+          虾皮WM特典
+         </a>
+        </td>
+        <td>
+         10085
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6682635204">
+          虾皮PB裸专
+         </a>
+        </td>
+        <td>
+         526
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6684276641">
+          AM指定(售罄)
+         </a>
+        </td>
+        <td>
+         300
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6685104421">
+          AM特典1+1(售罄)
+         </a>
+        </td>
+        <td>
+         1800
+        </td>
+       </tr>
+       <tr>
+        <td>
+         WM特典1+3(售罄)
+        </td>
+        <td>
+         400
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6688502569">
+          麻辣烫运回
+         </a>
+        </td>
+        <td>
+         7
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6689599856">
+          麻辣烫拆卡
+         </a>
+        </td>
+        <td>
+         4
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6686083126">
+          BR特典1+9(售罄)
+         </a>
+        </td>
+        <td>
+         10000
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6684518153">
+          MP指定1+9(售罄)
+         </a>
+        </td>
+        <td>
+         10000
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="11">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8829">
+          裸专
+         </a>
+        </td>
+        <td>
+         1701
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8840">
+          特典合集
+         </a>
+        </td>
+        <td>
+         2306
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8872">
+          裸专拆卡
+         </a>
+        </td>
+        <td>
+         2504
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8881">
+          自制特典拆卡
+         </a>
+        </td>
+        <td>
+         662
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8882">
+          自制特典运回
+         </a>
+        </td>
+        <td>
+         120
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8888">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         114
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8954">
+          麻辣烫运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8953">
+          麻辣烫拆卡
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8916">
+          BR特典1+2(售罄)
+         </a>
+        </td>
+        <td>
+         90
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8918">
+          BR特典1+2(售罄)
+         </a>
+        </td>
+        <td>
+         90
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8901">
+          MP特典1+2(售罄)
+         </a>
+        </td>
+        <td>
+         150
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="3">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-1">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         4111
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-1">
+          EL特典
+         </a>
+        </td>
+        <td>
+         2594
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310ZB1PBEL-899258-1">
+          EL特典指定
+         </a>
+        </td>
+        <td>
+         5919
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=8bd49db0028d4da194b2fb7a4d7f6f44">
+          AM特典
+         </a>
+        </td>
+        <td>
+         6176
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=5dc960bb2a524c7db7353bd860a23617">
+          AM特典指定(售罄)
+         </a>
+        </td>
+        <td>
+         800
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="4">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649648&amp;fanc_goods_no=270052&amp;goods_no=101247">
+          难为情运回
+         </a>
+        </td>
+        <td>
+         522
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649648&amp;fanc_goods_no=270054&amp;goods_no=101255">
+          难为情运回三版
+         </a>
+        </td>
+        <td>
+         1413
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10656143&amp;fanc_goods_no=270058&amp;goods_no=101270">
+          难为情指定拆卡
+         </a>
+        </td>
+        <td>
+         2519
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10656144&amp;fanc_goods_no=270053&amp;goods_no=101256">
+          裸专签售
+         </a>
+        </td>
+        <td>
+         32
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(售罄)
+        </td>
+        <td>
+         450
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         1312
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6689238800">
+          特价限量裸专(售罄)
+         </a>
+        </td>
+        <td>
+         550
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="4">
+         悦梦
+        </td>
+        <td>
+         <a href="https://m.yuemengmusic.com/#/pages/goods/detail?goodsId=10072">
+          WM特典
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://m.yuemengmusic.com/#/pages/goods/detail?goodsId=10073">
+          MP特典
+         </a>
+        </td>
+        <td>
+         27
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://m.yuemengmusic.com/#/pages/goods/detail?goodsId=10074">
+          MS特典
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://m.yuemengmusic.com/#/pages/goods/detail?goodsId=10075">
+          AM特典
+         </a>
+        </td>
+        <td>
+         53
+        </td>
+       </tr>
+       <tr>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Sung Hanbin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6683018256">
+          特典合集
+         </a>
+        </td>
+        <td>
+         64
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6680703215">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6681021477">
+          特典合集
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6681833487">
+          虾皮WM特典
+         </a>
+        </td>
+        <td>
+         294
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6682843124">
+          虾皮PB裸专
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="6">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8826">
+          裸专
+         </a>
+        </td>
+        <td>
+         11
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8837">
+          特典合集
+         </a>
+        </td>
+        <td>
+         265
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8869">
+          裸专拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8885">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8916">
+          BR(售罄)
+         </a>
+        </td>
+        <td>
+         60
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8901">
+          MP(售罄)
+         </a>
+        </td>
+        <td>
+         50
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-2">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         166
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-2">
+          EL特典
+         </a>
+        </td>
+        <td>
+         224
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=46b80a6d406a4725b53c85eb4ff809b2">
+          AM特典
+         </a>
+        </td>
+        <td>
+         92
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=be5c9fbe1b7b4b489d99112a97314bfb">
+          AM特典指定
+         </a>
+        </td>
+        <td>
+         613
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="3">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649624&amp;fanc_goods_no=270134&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         61
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649624&amp;fanc_goods_no=270137&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         60
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10656303&amp;fanc_goods_no=270156&amp;goods_no=101270">
+          k4指定拆卡
+         </a>
+        </td>
+        <td>
+         21
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(售罄)
+        </td>
+        <td>
+         450
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         4
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6689392208">
+          特价限量裸专
+         </a>
+        </td>
+        <td>
+         59
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Seok Matthew
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6681913081">
+          特典合集
+         </a>
+        </td>
+        <td>
+         4
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6685402260">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6682256396">
+          特典合集
+         </a>
+        </td>
+        <td>
+         4
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6681795579">
+          虾皮WM/裸专
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="4">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8830">
+          裸专
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8841">
+          特典合集
+         </a>
+        </td>
+        <td>
+         62
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8873">
+          裸专拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8889">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-3">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         64
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-3">
+          EL特典
+         </a>
+        </td>
+        <td>
+         58
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=6c8a02a0505a44c78d73989a6552f487">
+          AM特典
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=391826c260ef45d8a80d115bc3d18eaa">
+          AM特典指定
+         </a>
+        </td>
+        <td>
+         44
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649700&amp;fanc_goods_no=270073&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         29
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649700&amp;fanc_goods_no=270079&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(手动更新)
+        </td>
+        <td>
+         13
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6688229579">
+          特价限量裸专
+         </a>
+        </td>
+        <td>
+         6
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Ricky
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6682949536">
+          特典合集
+         </a>
+        </td>
+        <td>
+         77
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6681906955">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6682287612">
+          特典合集
+         </a>
+        </td>
+        <td>
+         7
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6681858377">
+          虾皮WM/裸专
+         </a>
+        </td>
+        <td>
+         229
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="6">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8825">
+          裸专
+         </a>
+        </td>
+        <td>
+         28
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8836">
+          特典合集
+         </a>
+        </td>
+        <td>
+         293
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8868">
+          裸专拆卡
+         </a>
+        </td>
+        <td>
+         23
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8884">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8916">
+          BR(售罄)
+         </a>
+        </td>
+        <td>
+         60
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8901">
+          MP(售罄)
+         </a>
+        </td>
+        <td>
+         50
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-6">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         353
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-6">
+          EL特典
+         </a>
+        </td>
+        <td>
+         329
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=f12359a509584fb9bf01383f934c6cd6">
+          AM特典
+         </a>
+        </td>
+        <td>
+         211
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=388b2f60171b43e79634e379bdb275d7">
+          AM特典指定(售罄)
+         </a>
+        </td>
+        <td>
+         800
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649718&amp;fanc_goods_no=270092&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         144
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649718&amp;fanc_goods_no=270088&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         120
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(售罄)
+        </td>
+        <td>
+         450
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         64
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6688251285">
+          特价限量裸专(售罄)
+         </a>
+        </td>
+        <td>
+         100
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Park Gunwook
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6682021921">
+          特典合集
+         </a>
+        </td>
+        <td>
+         65
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6682625078">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         90
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6682208756">
+          特典合集
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6682020829">
+          虾皮WM/裸专
+         </a>
+        </td>
+        <td>
+         39
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8831">
+          裸专
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8842">
+          特典合集
+         </a>
+        </td>
+        <td>
+         51
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8890">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8916">
+          BR(售罄)
+         </a>
+        </td>
+        <td>
+         60
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8901">
+          MP(售罄)
+         </a>
+        </td>
+        <td>
+         50
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-9">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         49
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-9">
+          EL特典
+         </a>
+        </td>
+        <td>
+         131
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=f0f997b0070c45f59137504f1e531a0b">
+          AM特典
+         </a>
+        </td>
+        <td>
+         8
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=49640d7853ec4f78b334912623019fbd">
+          AM特典指定
+         </a>
+        </td>
+        <td>
+         117
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="3">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649687&amp;fanc_goods_no=270059&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         21
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649687&amp;fanc_goods_no=270062&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         27
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10656174&amp;fanc_goods_no=270087&amp;goods_no=101270">
+          k4指定拆卡
+         </a>
+        </td>
+        <td>
+         2
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(手动更新)
+        </td>
+        <td>
+         35
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6688408349">
+          特价限量裸专
+         </a>
+        </td>
+        <td>
+         38
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Kim Taerae
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6683056560">
+          特典合集
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6685493234">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6682538530">
+          特典合集
+         </a>
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8833">
+          裸专
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8892">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-7">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-7">
+          EL特典
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=c41b9c59ce7a469fbd43fee03b63c832">
+          AM特典
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=742483af653343d28d93873dd653b922">
+          AM特典指定
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649671&amp;fanc_goods_no=270066&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649671&amp;fanc_goods_no=270069&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(手动更新)
+        </td>
+        <td>
+         27
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         19
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6688227211">
+          特价限量裸专
+         </a>
+        </td>
+        <td>
+         28
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Kim Gyuvin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6683102094">
+          特典合集
+         </a>
+        </td>
+        <td>
+         34
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6681906835">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6682182410">
+          特典合集
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6682847018">
+          虾皮裸专
+         </a>
+        </td>
+        <td>
+         99
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="6">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8827">
+          裸专
+         </a>
+        </td>
+        <td>
+         13
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8838">
+          特典合集
+         </a>
+        </td>
+        <td>
+         101
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8886">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8870">
+          裸专拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8916">
+          BR(售罄)
+         </a>
+        </td>
+        <td>
+         328
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8901">
+          MP(售罄)
+         </a>
+        </td>
+        <td>
+         650
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-5">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         91
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-5">
+          EL特典
+         </a>
+        </td>
+        <td>
+         236
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=ae55bd19821b43b29fa5767dd6bdc8aa">
+          AM特典
+         </a>
+        </td>
+        <td>
+         30
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=3e7864bbf2bd49d39d6309aa64e623f2">
+          AM特典指定(售罄)
+         </a>
+        </td>
+        <td>
+         300
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649662&amp;fanc_goods_no=270124&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         18
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649662&amp;fanc_goods_no=270120&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         27
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(手动更新)
+        </td>
+        <td>
+         179
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         11
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6689206886">
+          特价限量裸专
+         </a>
+        </td>
+        <td>
+         19
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Kim Jiwoong
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6683163650">
+          特典合集
+         </a>
+        </td>
+        <td>
+         12
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6682679744">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6681934670">
+          特典合集
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6682975774">
+          虾皮裸专
+         </a>
+        </td>
+        <td>
+         2
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="4">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8828">
+          裸专
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8839">
+          特典合集
+         </a>
+        </td>
+        <td>
+         59
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8887">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8871">
+          裸专拆卡
+         </a>
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbpo-10">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         18
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310zb1pbel-10">
+          EL特典
+         </a>
+        </td>
+        <td>
+         95
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=ce04bc822e9343ad942ccddba163556f">
+          AM特典
+         </a>
+        </td>
+        <td>
+         1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=b4ebd83855a0402e977ce3f1c30f00b1">
+          AM特典指定
+         </a>
+        </td>
+        <td>
+         147
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649656&amp;fanc_goods_no=270076&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         21
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649656&amp;fanc_goods_no=270083&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         9
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(手动更新)
+        </td>
+        <td>
+         60
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         0
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6689228848">
+          特价限量裸专
+         </a>
+        </td>
+        <td>
+         14
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         Han Yujin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         爱豆驿站
+        </td>
+        <td>
+         <a href="https://shop1723959802.v.weidian.com/item.html?itemID=6683161780">
+          特典合集
+         </a>
+        </td>
+        <td>
+         246
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         pinkypop
+        </td>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6687195777">
+          MS应幕
+         </a>
+        </td>
+        <td>
+         54
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://shop1684549761.v.weidian.com/item.html?itemID=6681969674">
+          特典合集
+         </a>
+        </td>
+        <td>
+         32
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="3">
+         微店
+        </td>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6681877671">
+          虾皮WM
+         </a>
+        </td>
+        <td>
+         275
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6682898440">
+          虾皮裸专
+         </a>
+        </td>
+        <td>
+         11
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://weidian.com/item.html?itemID=6685836956">
+          MP1+9
+         </a>
+        </td>
+        <td>
+         1130
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="5">
+         yeti
+        </td>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8847">
+          裸专
+         </a>
+        </td>
+        <td>
+         82
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8846">
+          特典合集
+         </a>
+        </td>
+        <td>
+         477
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8894">
+          特典拆卡
+         </a>
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8916">
+          BR1+1
+         </a>
+        </td>
+        <td>
+         120
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.yetimall.fun/h5/#/pages/store/goodsDetail/goodsDetail?gid=8901">
+          MP1+1
+         </a>
+        </td>
+        <td>
+         100
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         nanyi
+        </td>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310ZB1PBPO-517878-0">
+          WM/MP/BR/MS特典
+         </a>
+        </td>
+        <td>
+         345
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://www.nanyiglobal.com/2310ZB1PBEL-207691-0">
+          EL特典
+         </a>
+        </td>
+        <td>
+         948
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         starriver
+        </td>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=948d600f490d46d8836658905d2dfe09">
+          AM特典
+         </a>
+        </td>
+        <td>
+         156
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="http://m.liveonepick.com/#/?productId=9e442fde5618483cb814546ad886959e">
+          AM特典指定(售罄)
+         </a>
+        </td>
+        <td>
+         800
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="3">
+         ktown4u
+        </td>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649615&amp;fanc_goods_no=270126&amp;goods_no=101247">
+          k4运回
+         </a>
+        </td>
+        <td>
+         91
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649615&amp;fanc_goods_no=270127&amp;goods_no=101255">
+          k4运回三版
+         </a>
+        </td>
+        <td>
+         66
+        </td>
+       </tr>
+       <tr>
+        <td>
+         <a href="https://cn.ktown4u.com/iteminfo?grp_no=10649615&amp;fanc_goods_no=270132&amp;goods_no=101270">
+          k4指定拆卡
+         </a>
+        </td>
+        <td>
+         94
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="2">
+         makestar
+        </td>
+        <td>
+         指定特典(售罄)
+        </td>
+        <td>
+         450
+        </td>
+       </tr>
+       <tr>
+        <td>
+         随机特典(手动更新)
+        </td>
+        <td>
+         39
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="1">
+         kpopshop
+        </td>
+        <td>
+         <a href="https://shop1716043730.v.weidian.com/item.html?itemID=6688279095">
+          特价限量裸专
+         </a>
+        </td>
+        <td>
+         99
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         haobin
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         luckyz
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         kongddakz
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+       <tr>
+        <td colspan="3" id="namerow">
+         ZB1
+        </td>
+       </tr>
+       <tr>
+        <td id="platname" rowspan="0">
+         悦梦
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+    <br/>
+    <p style="font-size: 1em;;">
+     The data on this page is only for reference
+    </p>
+    <p style="font-size: 1em;;">
+     heatexh.github.io © tmj
+    </p>
+    <div class="watermark1">
+     heatexh.github.io © tmj
+    </div>
+    <div class="watermark2">
+     heatexh.github.io © tmj
+    </div>
+    <div class="watermark3">
+     heatexh.github.io © tmj
+    </div>
+    <div class="watermark4">
+     heatexh.github.io © tmj
+    </div>
+   </center>
+  </main>
+ </body>
+ <script src="scripts/chart.umd.min.js">
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0">
+ </script>
+ <script>
+  Chart.register(ChartDataLabels);
+    var ctx = document.getElementById('pieChart').getContext('2d');
+    Chart.overrides.pie.plugins.legend.position = 'left';
+    var data = [{
+        label: '数量',
+        data: [73778, 5618, 3347, 2503, 2149, 789, 444, 306, 87, 0, 0, 0, 0],
+        backgroundColor: ['#4c78a8', '#f58518', '#e45756', '#72b7b2', '#54a24b', '#eeca3b', '#b279a2', '#ff9da6', '#9d755d', '#bab0ac', '#d6a5c9', '#a6d854', '#555555'],
+    }];
 
-<body>
-    <main>
-        <center>
-            <p style="font-size: 1em;">
-                To be updated
-            </p>
-            <a href="index.html" style="font-size: 2em;">
-                中文
-            </a>
-            <p style="font-size: 2em;display: inline">
-                👀
-            </p>
-            <a href="ko.html" style="font-size: 2em;">
-                한국어
-            </a>
-            <p style="font-size: 2em;display: inline">
-                👀
-            </p>
-            <h2 style="font-size: 3em;">
-                ZB1's 2nd Mini Album Sales in China (To be updated)
-            </h2>
-            <br />
-            <h2 style="font-size: 3em;">
-                Total Sales
-            </h2>
-            <div class="table-container">
-                <table class="styled-table1" id="total_table">
-                    <thead>
-                        <tr>
-                            <td id="lcell">
-                                Total sales: 
-                            </td>
-                            <th>
-                                Zhang Hao
-                            </th>
-                            <th>
-                                Sung Hanbin
-                            </th>
-                            <th>
-                                Seok Matthew
-                            </th>
-                            <th>
-                                Ricky
-                            </th>
-                            <th>
-                                Park Gunwook
-                            </th>
-                            <th>
-                                Kim Taerae
-                            </th>
-                            <th>
-                                Kim Gyuvin
-                            </th>
-                            <th>
-                                Kim Jiwoong
-                            </th>
-                            <th>
-                                Han Yujin
-                            </th>
-                            <th>
-                                Haobin
-                            </th>
-                            <th>
-                                ZB1
-                            </th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-            <br />
-            <h2 style="font-size: 3em;">
-                Detailed Sales
-            </h2>
-            <div class="table-container">
-                <table class="styled-table2">
-                    <thead>
-                        <tr>
-                            <th>
-                                Platform
-                            </th>
-                            <th>
-                                Item (Click to jump to the link)
-                            </th>
-                            <th>
-                                Sales
-                            </th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
-            <br />
-            <p style="font-size: 1em;;">
-                heatexh.github.io © tmj
-            </p>
-            <div class="watermark1">
-                heatexh.github.io © tmj
-            </div>
-            <div class="watermark2">
-                heatexh.github.io © tmj
-            </div>
-            <div class="watermark3">
-                heatexh.github.io © tmj
-            </div>
-            <div class="watermark4">
-                heatexh.github.io © tmj
-            </div>
-        </center>
-    </main>
-</body>
-<script src="scripts/chart.umd.min.js">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js">
-</script>
-
+    var options = {
+        plugins: {
+            legend: {
+                labels: {
+                    font: {
+                        size: 28
+                    }
+                }
+            },
+            datalabels: {
+                formatter: (value, ctx) => {
+                    let sum = 0;
+                    let dataArr = ctx.chart.data.datasets[0].data;
+                    dataArr.map(data => {
+                        sum += data;
+                    });
+                    let percentage = (value * 100 / sum).toFixed(0) + "%";
+                    return value + ' (' + percentage + ')';
+                },
+                color: '#fff',
+                font: {
+                    size: 28
+                }
+            }
+        }
+    };
+    var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Zhang Hao', 'Han Yujin', 'Ricky', 'Sung Hanbin', 'Kim Gyuvin', 'Park Gunwook', 'Kim Jiwoong', 'Seok Matthew', 'Kim Taerae', 'ZB1', 'kongddakz', 'luckyz', 'haobin'],
+            datasets: data
+        },
+        options: options
+    });
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8/hammer.min.js">
+ </script>
+ <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js">
+ </script>
+ <script>
+  // line chart with zoom
+    Chart.register(ChartZoom);
+    Chart.defaults.plugins.legend.position = 'left';
+    var ctx_line = document.getElementById('lineChart');
+    const config_line = {
+        type: 'line',
+        data: {
+            labels: ['10-09 12:25'],
+            datasets: [
+                {
+                    label: 'Zhang Hao',
+                    data: [73778],
+                    borderColor: '#4c78a8',
+                    backgroundColor: '#4c78a8',
+                },
+                {
+                    label: 'Sung Hanbin',
+                    data: [2503],
+                    borderColor: '#72b7b2',
+                    backgroundColor: '#72b7b2',
+                },
+                {
+                    label: 'Seok Matthew',
+                    data: [306],
+                    borderColor: '#ff9da6',
+                    backgroundColor: '#ff9da6',
+                },
+                {
+                    label: 'Ricky',
+                    data: [3347],
+                    borderColor: '#e45756',
+                    backgroundColor: '#e45756',
+                },
+                {
+                    label: 'Park Gunwook',
+                    data: [789],
+                    borderColor: '#eeca3b',
+                    backgroundColor: '#eeca3b',
+                },
+                {
+                    label: 'Kim Taerae',
+                    data: [87],
+                    borderColor: '#9d755d',
+                    backgroundColor: '#9d755d',
+                },
+                {
+                    label: 'Kim Gyuvin',
+                    data: [2149],
+                    borderColor: '#54a24b',
+                    backgroundColor: '#54a24b',
+                },
+                {
+                    label: 'Kim Jiwoong',
+                    data: [444],
+                    borderColor: '#b279a2',
+                    backgroundColor: '#b279a2',
+                },
+                {
+                    label: 'Han Yujin',
+                    data: [5618],
+                    borderColor: '#f58518',
+                    backgroundColor: '#f58518',
+                },
+                {
+                    label: 'haobin',
+                    data: [0],
+                    borderColor: '#555555',
+                    backgroundColor: '#555555',
+                },
+                {
+                    label: 'luckyz',
+                    data: [0],
+                    borderColor: '#a6d854',
+                    backgroundColor: '#a6d854',
+                },
+                {
+                    label: 'kongddakz',
+                    data: [0],
+                    borderColor: '#d6a5c9',
+                    backgroundColor: '#d6a5c9',
+                },
+                {
+                    label: 'ZB1',
+                    data: [0],
+                    borderColor: '#bab0ac',
+                    backgroundColor: '#bab0ac',
+                },
+                
+            ]
+        },
+        options: {
+            scales: {
+                x: {
+                    ticks: {
+                        font: {
+                            size: 24
+                        }
+                    }
+                },
+                y: {
+                    ticks: {
+                        font: {
+                            size: 18
+                        },
+                        stepSize: 1
+                    }
+                },
+            },
+            plugins: {
+                legend: {
+                    labels: {
+                        font: {
+                            size: 28
+                        }
+                    }
+                },
+                datalabels: {
+                    display: false
+                }
+            }
+        }
+    };
+    var lineChart = new Chart(ctx_line, config_line);
+ </script>
 </html>
