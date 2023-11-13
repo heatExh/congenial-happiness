@@ -327,12 +327,19 @@
             },
             datalabels: {
                 formatter: (value, ctx) => {
+                    var hiddens = ctx.chart._hiddenIndices;
                     let sum = 0;
                     let dataArr = ctx.chart.data.datasets[0].data;
-                    dataArr.map(data => {
-                        sum += data;
+                    dataArr.forEach((val, i) => {
+                        if (hiddens[i] != undefined) {
+                            if (!hiddens[i]) {
+                                sum += val;
+                            }
+                        } else {
+                            sum += val;
+                        }
                     });
-                    let percentage = (value * 100 / sum).toFixed(0) + "%";
+                    let percentage = (value * 100 / sum).toFixed(1) + "%";
                     return value + ' (' + percentage + ')';
                 },
                 color: '#fff',
